@@ -1,7 +1,7 @@
 FactoryBot.define do
 	factory :campaign do
-		title         { Faker::Lorem.word }
-		description   { Faker::Lorem.sentence }
+		title { FFaker::Lorem.word }
+		description { FFaker::Lorem.sentence }
 		user
 	end
 end
